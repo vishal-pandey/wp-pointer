@@ -298,7 +298,10 @@
         <div class="row align-items-stretch">
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
             <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-mobile"></span></div>
+              <div class="unit-4-icon mr-4">
+                <!-- <span class="text-primary icon-mobile"></span> -->
+                <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/1.jpg" width="50"></span>
+              </div>
               <div>
                 <h3>Mobile Recharge and Utility bill Payment</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
@@ -308,7 +311,10 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-cloud"></span></div>
+              <div class="unit-4-icon mr-4">
+                <!-- <span class="text-primary icon-cloud"></span> -->
+                <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/2.jpg" width="50"></span>
+              </div>
               <div>
                 <h3>API</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
@@ -318,7 +324,10 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-money"></span></div>
+              <div class="unit-4-icon mr-4">
+                <!-- <span class="text-primary icon-money"></span> -->
+                <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/3.jpg" width="50"></span>
+              </div>
               <div>
                 <h3>Remitence</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
@@ -330,27 +339,36 @@
 
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-card_travel"></span></div>
+              <div class="unit-4-icon mr-4">
+                <!-- <span class="text-primary icon-card_travel"></span> -->
+                <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/4.jpg" width="50"></span>
+              </div>
               <div>
                 <h3>Tour and Travels</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <p><a href="https://travel.aflahgroups.com/">Learn More</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
             <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-business_center"></span></div>
+              <div class="unit-4-icon mr-4">
+                <!-- <span class="text-primary icon-business_center"></span> -->
+                <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/5.jpg" width="50"></span>
+              </div>
               <div>
                 <h3>Hajj & Umrah</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <p><a href="https://travel.aflahgroups.com/">Learn More</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
             <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-attach_money"></span></div>
+              <div class="unit-4-icon mr-4">
+                <!-- <span class="text-primary icon-attach_money"></span> -->
+                <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/6.jpg" width="50"></span>
+              </div>
               <div>
                 <h3>Urility Bills</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
@@ -458,21 +476,27 @@
               </div>
               <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
                 <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-beach_access"></span></div>
+                  <div class="unit-4-icon mr-4 mb-3">
+                    <!-- <span class="text-primary icon-beach_access"></span> -->
+                    <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/7.jpg" style="width:100%;"></span>
+                  </div>
                   <div>
                     <h3>Foriegn Packages</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
+                    <p class="mb-0"><a href="https://travel.aflahgroups.com/">Learn More</a></p>
                   </div>
                 </div>
               </div>
               <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
                 <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-assignment"></span></div>
+                  <div class="unit-4-icon mr-4 mb-3">
+                    <!-- <span class="text-primary icon-assignment"></span> -->
+                    <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/8.jpg" style="width:100%;"></span>
+                  </div>
                   <div>
                     <h3>Local Packages</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
+                    <p class="mb-0"><a href="https://travel.aflahgroups.com/">Learn More</a></p>
                   </div>
                 </div>
               </div>
@@ -484,41 +508,53 @@
             <div class="row">
               <div class="col-md-12 mb-md-5 mb-0 col-lg-3">
                 <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-calendar"></span></div>
+                  <div class="unit-4-icon mr-4 mb-3">
+                    <!-- <span class="text-primary icon-calendar"></span> -->
+                    <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/9.jpg" style="width:100%;"></span>
+                  </div>
                   <div>
                     <h3>Muslim Tour Packages</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
+                    <p class="mb-0"><a href="https://travel.aflahgroups.com/">Learn More</a></p>
                   </div>
                 </div>
               </div>
               <div class="col-md-12 mb-md-5 mb-0 col-lg-3">
                 <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-fire"></span></div>
+                  <div class="unit-4-icon mr-4 mb-3">
+                    <!-- <span class="text-primary icon-fire"></span> -->
+                    <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/10.jpg" style="width:100%;"></span>
+                  </div>
                   <div>
                     <h3>Hindu Tour Packages</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
+                    <p class="mb-0"><a href="https://travel.aflahgroups.com/">Learn More</a></p>
                   </div>
                 </div>
               </div>
               <div class="col-md-12 mb-md-5 mb-0 col-lg-3">
                 <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-gratipay"></span></div>
+                  <div class="unit-4-icon mr-4 mb-3">
+                    <!-- <span class="text-primary icon-gratipay"></span> -->
+                    <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/11.jpg" style="width:100%;"></span>
+                  </div>
                   <div>
                     <h3>Sikh Tour Packages</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
+                    <p class="mb-0"><a href="https://travel.aflahgroups.com/">Learn More</a></p>
                   </div>
                 </div>
               </div>
               <div class="col-md-12 mb-md-5 mb-0 col-lg-3">
                 <div class="unit-4">
-                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-moon-o"></span></div>
+                  <div class="unit-4-icon mr-4 mb-3">
+                    <!-- <span class="text-primary icon-moon-o"></span> -->
+                    <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/12.jpg" style="width:100%;"></span>
+                  </div>
                   <div>
                     <h3>Honey Moon Packages</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                    <p class="mb-0"><a href="#">Learn More</a></p>
+                    <p class="mb-0"><a href="https://travel.aflahgroups.com/">Learn More</a></p>
                   </div>
                 </div>
               </div>
