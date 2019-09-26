@@ -288,7 +288,7 @@
 
     
 
-    <section class="site-section border-bottom bg-light services-section-mobile" id="services-section">
+    <section class="site-section border-bottom bg-light services-section-mobile" id="services-section-mobile">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
@@ -381,7 +381,7 @@
       </div>
     </section>
 
-    <section class="site-section border-bottom bg-light v-bg-c services-section-desktop" id="services-section">
+    <section class="site-section border-bottom bg-light v-bg-c services-section-desktop" id="services-section-desktop">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">

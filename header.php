@@ -84,7 +84,8 @@
                 <li><a href="#about-section" class="nav-link">About Us</a></li>
                 <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
                 <li><a href="#work-section" class="nav-link">Work</a></li>
-                <li><a href="#services-section" class="nav-link">Services</a></li>
+                <li class="services-section-mobile"><a href="#services-section-mobile" class="nav-link">Services</a></li>
+                <li class="services-section-desktop"><a href="#services-section-desktop" class="nav-link">Services</a></li>
                 <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
                 <li><a href="#tour-section" class="nav-link">Tour and Travels</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
