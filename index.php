@@ -24,7 +24,7 @@
         <img src="<?php echo get_template_directory_uri()."/"; ?>images/pilgrimage.jpg" alt="Image" class="img-fluid">
         <div class="img-box">
           <span class="sub-title">About Us</span>
-          <h2>We are the best agency to coonect</h2>
+          <h2>We are the best agency to connect</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eveniet, voluptatem harum provident iusto modi explicabo! Aperiam velit reiciendis, eius impedit ea necessitatibus facilis nobis ipsum, architecto cum, doloribus nesciunt.</p>
           <p><a href="#" class="btn btn-outline-dark">Read More</a></p>
         </div>
@@ -243,7 +243,7 @@
 
           <div class="col-md-6 col-lg-4">
             <div class=" box-with-humber">
-              <h2 class="text-black"><span class="text-primary">02.</span>Meating</h2>
+              <h2 class="text-black"><span class="text-primary">02.</span>Meeting</h2>
               <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
               
             </div>
@@ -288,7 +288,7 @@
 
     
 
-    <section class="site-section border-bottom bg-light" id="services-section">
+    <section class="site-section border-bottom bg-light services-section-mobile" id="services-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
@@ -329,7 +329,7 @@
                 <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/3.jpg" width="50"></span>
               </div>
               <div>
-                <h3>Remitence</h3>
+                <h3>Remittance</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
                 <p><a href="#">Learn More</a></p>
               </div>
@@ -370,13 +370,102 @@
                 <span class="text-primary"><img src="<?php echo get_template_directory_uri()."/"; ?>vectors/6.jpg" width="50"></span>
               </div>
               <div>
-                <h3>Urility Bills</h3>
+                <h3>Utility Bills</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
           </div>
 
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section border-bottom bg-light v-bg-c services-section-desktop" id="services-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3" style="color: #7efff5;">Our Services</h2>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="v-bg">
+            <div class="col-sm-12 v-left-c">
+              <h3>Mobile Recharge</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at. <br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut <br>
+              labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco <br>
+              laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in <br>
+              voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br>
+              cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id.</p>
+              <img src="<?php echo get_template_directory_uri()."/"; ?>vectors/1.jpg" class="img-test">
+            </div>
+            <div class="col-sm-12 v-right-c">
+              <h3>API</h3>
+              <p>Lorem ipsum dolor sit amet, <br>
+              consectetur adipisicing elit, sed do<br> eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor  in reprehenderit <br>in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur  sint occaecat <br>cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum anim id est laborum.</p>
+              <img src="<?php echo get_template_directory_uri()."/"; ?>vectors/2.jpg" class="img-test1">
+            </div>
+            <div class="col-sm-12 v-left1-c">
+              <h3>Remittance</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at. <br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut <br>
+              labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco <br>
+              laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in <br>
+              voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br>
+              cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id.</p>
+              <img src="<?php echo get_template_directory_uri()."/"; ?>vectors/3.jpg" class="img-test2">
+            </div>
+            <div class="col-sm-12 v-right1-c">
+              <h3>Tour and Travels</h3>
+              <p>Lorem ipsum dolor sit amet, <br>
+              consectetur adipisicing elit, sed do<br> eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor  in reprehenderit <br>in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur  sint occaecat <br>cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum anim id est laborum.</p>
+              <img src="<?php echo get_template_directory_uri()."/"; ?>vectors/4.jpg" class="img-test3">
+            </div>
+            <div class="col-sm-12 v-left-c">
+              <h3>Hajj & Umrah</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at. <br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut <br>
+              labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco <br>
+              laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in <br>
+              voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br>
+              cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id.</p>
+              <img src="<?php echo get_template_directory_uri()."/"; ?>vectors/5.jpg" class="img-test4">
+            </div>
+            <div class="col-sm-12 v-right-c">
+              <h3>Utility Bills</h3>
+              <p>Lorem ipsum dolor sit amet, <br>
+              consectetur adipisicing elit, sed do<br> eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi <br>ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor  in reprehenderit <br>in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur  sint occaecat <br>cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum anim id est laborum.</p>
+              <img src="<?php echo get_template_directory_uri()."/"; ?>vectors/6.jpg" class="img-test5">
+            </div>
+          </div>
         </div>
       </div>
     </section>

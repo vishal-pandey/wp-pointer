@@ -2423,3 +2423,130 @@ h1, h2, h3, h4, h5,
 .display-none{
   display: none;
 }
+
+
+
+
+
+.v-bg{
+  background: url("https://raw.githubusercontent.com/vishal-pandey/www.vishalpandey.xyz/master/Asset%202.png");
+  background-size: 1140px auto;
+  /*height: 6000px;*/
+  width: 100%;
+  background-repeat: no-repeat;
+  /*border: 1px solid green;*/
+}
+.v-bg-c{
+  background: url("https://www.rnfiservices.com/images/web-2.jpg");
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+.v-left-c, .v-left1-c{
+  height: 660px;
+  color: white;
+  /*border: 1px solid red;*/
+}
+.v-right-c, .v-right1-c{
+  height: 510px;
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-bottom: 100px;
+  color: white;
+}
+
+
+.v-left-c h3, .v-right-c h3, .v-left1-c h3, .v-right1-c h3{
+  font-weight: bolder;
+  color: white;
+}
+
+.v-left1-c{
+  text-align: right;
+}
+
+
+.v-right1-c{
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  /*border: 1px solid black;*/
+}
+.img-test, .img-test1, .img-test2, .img-test3, .img-test4, .img-test5{
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  /*float: right;*/
+  border: 10px solid white;
+  box-shadow: 5px 5px 5px grey;
+  position: absolute;
+
+}
+.img-test{
+  
+  right: 0px;
+}
+
+.img-test1{
+  
+  /*right: 150px;*/
+  left: 0;
+  top: -70px;
+}
+
+.img-test2{
+  
+  left: 0;
+  bottom: 100px;
+  /*top: 150px;*/
+}
+
+.img-test3{
+  
+  right: 0px;
+  top: -70px;
+  /*bottom: 100px;*/
+}
+
+.img-test4{
+  
+  right: 0;
+  bottom: 100px;
+}
+
+.img-test5{
+  
+  left: 0;
+  top: -60px;
+}
+
+
+
+.img-test:hover, .img-test1:hover, .img-test2:hover, .img-test3:hover, .img-test4:hover, .img-test5:hover{
+  animation-name: rotate1;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate1{
+  0% {height: 330px; width: 330px;}
+  50% {height: 340px; width: 340px;}
+  100%{height: 330px; width: 330px;}
+}
+
+.services-section-mobile{
+  display: none!important;
+}
+
+@media (max-width: 991.98px) {
+  .services-section-mobile{
+    display: initial!important;
+  }  
+  .services-section-desktop{
+    display: none;
+  }
+}
